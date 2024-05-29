@@ -27,6 +27,20 @@ IR light is invisible to us as its wavelength (700nm – 1mm) is much higher tha
 3. Leds - Red, Yellow, Green
 4. Resistors - 220 ohms
 
+###  Table for PIN connection
+| IR Sensor | VSD Squadron Mini |
+| ------------- | ------------- |
+| Data | PD1 |
+| VCC | 5V |
+| GND | GND |
+
+| Leds | VSD Squadron Mini |
+| ------------- | ------------- |
+| Green | PD2 |
+| Yellow | PD3 |
+| Red | PD4 |
+| Resistor | GND - |
+
 ## Circuit Connection Diagram
 ![image](crkDiagram.png)
 
