@@ -21,3 +21,15 @@ IR light is invisible to us as its wavelength (700nm – 1mm) is much higher tha
 - GND: to the ground of the power supply 
 - OUT: to any digital pin 
 
+## Components 
+1. VSD Squadron Mini board with CH32V003F4U6 chip with 32-bit RISC-V core based on RV32EC instruction set
+2. IR Module
+3. Leds - Red, Yellow, Green
+4. Resistors - 220 ohms
+
+## Circuit Connection Diagram
+![image](https://github.com/AbrarShaikh/RiscVnoFix/assets/34272376/c466a6f1-437e-4b5e-8278-8ca699bcd655)
+
+
+
+
