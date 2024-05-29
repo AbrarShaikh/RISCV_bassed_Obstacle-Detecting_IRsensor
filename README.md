@@ -28,7 +28,7 @@ IR light is invisible to us as its wavelength (700nm – 1mm) is much higher tha
 4. Resistors - 220 ohms
 
 ## Circuit Connection Diagram
-![image](https://github.com/AbrarShaikh/RiscVnoFix/assets/34272376/c466a6f1-437e-4b5e-8278-8ca699bcd655)
+![image](crkDiagram.png)
 
 
 
