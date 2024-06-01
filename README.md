@@ -44,6 +44,9 @@ IR light is invisible to us as its wavelength (700nm – 1mm) is much higher tha
 ## Circuit Connection Diagram
 ![image](crkDiagram.png)
 
+## Demo
+
+https://github.com/AbrarShaikh/RiscVnoFix/assets/34272376/0fb6a5a0-e406-40d6-a38c-d682cf1f5bfb
 
 
 
