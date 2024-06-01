@@ -44,8 +44,34 @@ IR light is invisible to us as its wavelength (700nm – 1mm) is much higher tha
 ## Circuit Connection Diagram
 ![image](crkDiagram.png)
 
-## Demo
+## Code
+```
+	while (1)
+	{
+		IR = GPIO_ReadInputDataBit(GPIOD, LEDI);
+		if(IR==0){
+			GPIO_WriteBit(GPIOD, LEDG, 0);
+			GPIO_WriteBit(GPIOD, LEDY, 1);
+			GPIO_WriteBit(GPIOD, LEDR, 0);
 
+			Delay_Ms(2000);
+			IR = GPIO_ReadInputDataBit(GPIOD, LEDI);
+
+			while(IR==0){
+				GPIO_WriteBit(GPIOD, LEDY, 0);
+				GPIO_WriteBit(GPIOD, LEDR, 1);
+
+				IR = GPIO_ReadInputDataBit(GPIOD, LEDI);
+			}
+		}
+		else{
+			GPIO_WriteBit(GPIOD, LEDG, 1);
+			GPIO_WriteBit(GPIOD, LEDY, 0);
+			GPIO_WriteBit(GPIOD, LEDR, 0);
+		}
+	}
+```
+## Demo
 https://github.com/AbrarShaikh/RiscVnoFix/assets/34272376/0fb6a5a0-e406-40d6-a38c-d682cf1f5bfb
 
 
